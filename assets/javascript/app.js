@@ -131,6 +131,7 @@ $(document).ready(function () {
                     $(stage).append('</div><div id="6" class="answer">' + questionBank[questionNumber][6] + '</div><div id="7" class="image">' + questionBank[questionNumber][7] + '</div>');
                 };
                 setTimeout(function () { changeQuestion() }, 10000);
+                
             };
         });
     };
